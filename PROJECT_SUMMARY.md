@@ -192,7 +192,7 @@ Per user requirements, the tool:
 ```bash
 # Clone the repository
 git clone https://github.com/zhu-shun/-
-cd -
+cd ./-  # Note: repository is named "-" so use ./-
 
 # Run the quick start example
 Rscript examples/quick_start.R
