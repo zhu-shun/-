@@ -47,7 +47,12 @@ RStudio provides a nice IDE for R:
 ```bash
 # Using git
 git clone https://github.com/zhu-shun/-
-cd ./-  # Note: repository is named "-" so use ./-
+
+# Note: The repository is named "-" which requires special handling
+# Use one of these commands to enter the directory:
+cd ./-
+# or specify the full path:
+# cd /path/to/cloned/-
 
 # Or download the ZIP file from GitHub and extract it
 ```
