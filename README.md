@@ -218,7 +218,14 @@ This visualization tool is designed with the following principles:
 ├── examples/
 │   ├── quick_start.R             # Minimal working example
 │   └── example_usage.R           # Comprehensive examples
-└── README.md                      # This file
+├── tests/
+│   └── test_function.R           # Validation tests
+├── docs/
+│   ├── INSTALLATION.md           # Setup guide
+│   ├── VISUAL_GUIDE.md           # Plot component guide
+│   └── FAQ.md                    # Frequently asked questions
+├── README.md                      # This file (English)
+└── README_CN.md                   # Chinese documentation
 ```
 
 ## Notes
@@ -227,6 +234,13 @@ This visualization tool is designed with the following principles:
 - **Missing data**: The function uses `pairwise.complete.obs` for handling missing data, which calculates correlations using all available pairs of observations.
 - **Correlation methods**: Both Pearson (parametric) and Spearman (non-parametric) correlations are supported.
 - **Customization**: Nearly all visual aspects can be customized through function parameters.
+
+## Documentation
+
+- **[Installation Guide](docs/INSTALLATION.md)**: Detailed setup instructions
+- **[Visual Guide](docs/VISUAL_GUIDE.md)**: Understanding plot components
+- **[FAQ](docs/FAQ.md)**: Common questions and troubleshooting
+- **[中文文档](README_CN.md)**: Chinese documentation
 
 ## Troubleshooting
 
