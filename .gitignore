@@ -1,0 +1,37 @@
+# R specific
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Output directories
+output/
+figures/
+plots/
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package management
+renv/
+packrat/
+.Rprofile
+
+# Generated plots (users should generate their own)
+*.png
+*.pdf
+*.jpg
+*.jpeg
+*.tiff
+
+# Except example images in docs
+!docs/**/*.png
+!docs/**/*.jpg
